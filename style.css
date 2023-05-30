@@ -435,7 +435,7 @@ nav .icon-burger .line{
 
     /* hjemmesiden på mobil */
     .innhold{
-        margin-top: 50px;
+        margin-top: 60px;
         margin-bottom: 50px;
         display: flex;
         flex-direction: column;
@@ -500,57 +500,10 @@ nav .icon-burger .line{
     border-radius: 10px;
     
   }
-  /*
-  .footer{
-    background-color:#151313;
-    height: 300px;
-    width: auto;
-    display: grid;
-    place-items: center;
-    
-}
-.wrapper .button{
-    display: inline;
-    float: left;
-    height: 60px;
-    width: 60px;
-    margin: 0 15px;
-    overflow: hidden;
-    background: #E2E2E2;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-}
-.wrapper .button:hover{
-    width: 330px;
-}
-.wrapper .button .icon{
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    border-radius: 50px;
-    box-sizing: border-box;
-    line-height: 60px;
-}
-.wrapper .button:hover .icon{
-    background: #00A3FF;
-}
-.wrapper .button .icon i{
-    font-size: 25px;
-    line-height: 60px;
-}
-.wrapper .button a{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 60px;
-    margin-left: 10px;
-}
-  */
 
 
   /* work siden */
+  
   .arbeid .variant{
     margin: 0;  
     margin-top: 30px;
@@ -579,6 +532,7 @@ nav .icon-burger .line{
     margin-right: 10px;
 } 
 
+
 .arbeid .variant i{
     background-color: #151313;
     color: #E2E2E2;
@@ -601,7 +555,13 @@ nav .icon-burger .line{
     font-size: 30px;
     padding: 5px;
 }
+.artikler_pg{
+    height: auto;
+    width: 100%;
+}
+
 .artikler_pg .wolftech{
+    height: auto;
     font-size: 10px;
     margin: 0;
     padding-top: 20px;
@@ -611,6 +571,7 @@ nav .icon-burger .line{
     color: white; 
 }
 .artikler_pg .xplore{
+    height: auto;
     font-size: 10px;
     margin: 0;
     padding-top: 20px;
@@ -620,6 +581,7 @@ nav .icon-burger .line{
     color: white;
 }
 .artikler_pg .charm{
+    height: auto;
     font-size: 10px;
     margin: 0;
     padding-top: 20px;
